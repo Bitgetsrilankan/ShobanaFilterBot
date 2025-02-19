@@ -52,7 +52,7 @@ async def start(client, message):
          ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         #add emoji loading then run 1 sec and dlt
-        m=await message.reply_text("ShobanaFilterBot") 
+        m=await message.reply_text("LKFilmBot...") 
         await asyncio.sleep(1.2)#1.2sec sleep
         await m.delete()
         await message.reply_photo(
