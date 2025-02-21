@@ -262,6 +262,9 @@ This Movie File/Video will be deleted in 05 mins 🫥 (Due to Copyright Issues).
 Please forward this File/Video to your Saved Messages and Start Download there""")
     await asyncio.sleep(300)
     await f.delete()
+    await message.reply("""🎥 You're All Files Have Been Deleted After 5️⃣ Minutes
+
+🫥 If You Need That File Again Request Again""")
                     
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
