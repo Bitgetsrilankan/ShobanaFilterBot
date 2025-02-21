@@ -255,6 +255,11 @@ async def start(client, message):
         caption=f_caption,
         protect_content=True if pre == 'filep' else False,
         )
+    await f.reply("""❗️❗️❗️IMPORTANT❗️❗️❗️
+
+This Movie File/Video will be deleted in 10 mins 🫥 (Due to Copyright Issues).
+
+Please forward this File/Video to your Saved Messages and Start Download there""")
     await asyncio.sleep(300)
     await f.delete()
                     
