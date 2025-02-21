@@ -257,7 +257,7 @@ async def start(client, message):
         )
     await f.reply("""❗️❗️❗️IMPORTANT❗️❗️❗️
 
-This Movie File/Video will be deleted in 10 mins 🫥 (Due to Copyright Issues).
+This Movie File/Video will be deleted in 05 mins 🫥 (Due to Copyright Issues).
 
 Please forward this File/Video to your Saved Messages and Start Download there""")
     await asyncio.sleep(300)
