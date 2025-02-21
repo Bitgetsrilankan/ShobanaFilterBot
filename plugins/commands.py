@@ -24,8 +24,7 @@ async def start(client, message):
         buttons = [
               [
                   InlineKeyboardButton(f'ᴏᴛᴛ ᴜᴘᴅᴀᴛᴇs​', url='https://t.me/sallibota'),
-                  InlineKeyboardButton(f'ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/LKFilmBotss'),
-                  InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/oh_th')
+                  InlineKeyboardButton(f'ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/LKFilmBotss')
          ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -47,8 +46,7 @@ async def start(client, message):
             InlineKeyboardButton(' ᴀʙᴏᴜᴛ', callback_data='about')
         ], [
              InlineKeyboardButton(f'ᴏᴛᴛ ᴜᴘᴅᴀᴛᴇs​', url='https://t.me/LKFilmBotss'),
-             InlineKeyboardButton(f'ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/sallibota'),
-            InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/oh_th')
+             InlineKeyboardButton(f'ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/sallibota')
          ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         #add emoji loading then run 1 sec and dlt
@@ -98,8 +96,7 @@ async def start(client, message):
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
         ],[
              InlineKeyboardButton(f'ᴏᴛᴛ ᴜᴘᴅᴀᴛᴇs​', url='https://t.me/LKFilmBotss'),
-             InlineKeyboardButton(f'ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/sallibota'),
-            InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/oh_th')
+             InlineKeyboardButton(f'ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/sallibota')
          ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
