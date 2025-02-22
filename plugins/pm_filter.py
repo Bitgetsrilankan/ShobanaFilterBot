@@ -370,7 +370,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 await f.delete()
                 await Brutal.delete()
                 MRBrutal = await f.reply("❗️ʏᴏᴜʀ ғɪʟᴇ ɪs ᴅᴇʟᴇᴛᴇᴅ ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ᴠɪᴏʟᴀᴛɪᴏɴs!")
-                await asycio.sleep(60)
+                await asyncio.sleep(60)
                 await MRBrutal.delete()
         except UserIsBlocked:
             await query.answer('Unblock the bot mahn !', show_alert=True)
@@ -413,7 +413,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await Brutal.delete()
         
         MRBrutal = await query.message.reply("""❗️ʏᴏᴜʀ ғɪʟᴇ ɪs ᴅᴇʟᴇᴛᴇᴅ ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ᴠɪᴏʟᴀᴛɪᴏɴs!""")
-        await asycio.sleep(60)
+        await asyncio.sleep(60)
         await MRBrutal.delete()
     elif query.data == "pages":
         await query.answer()
