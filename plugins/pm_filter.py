@@ -365,14 +365,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     caption=f_caption,
                     protect_content=True if ident == "filep" else False 
                 )
-                await f.reply("""❗️❗️❗️IMPORTANT❗️❗️❗️
-
-This Movie File/Video will be deleted in 05 mins 🫥 (Due to Copyright Issues).
-
-Please forward this File/Video to your Saved Messages and Start Download there""")
+                await f.reply("""ʏᴏᴜʀ ғɪʟᴇ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ᴀғᴛᴇʀ 5.0 ᴍɪɴᴜᴛᴇs ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ᴠɪᴏʟᴀᴛɪᴏɴs!""")
                 await asyncio.sleep(300)
                 await f.delete()
-                await f.reply("🎥 You're All Files Have Been Deleted After 5️⃣ Minutes\n\n🫥 If You Need That File Again Request Again")
+                await f.reply("❗️ʏᴏᴜʀ ғɪʟᴇ ɪs ᴅᴇʟᴇᴛᴇᴅ ᴀғᴛᴇʀ 5.0 ᴍɪɴᴜᴛᴇs ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ᴠɪᴏʟᴀᴛɪᴏɴs!")
                 
         except UserIsBlocked:
             await query.answer('Unblock the bot mahn !', show_alert=True)
@@ -409,16 +405,10 @@ Please forward this File/Video to your Saved Messages and Start Download there""
             caption=f_caption,
             protect_content=True if ident == 'checksubp' else False
         )
-        await f.reply("""❗️❗️❗️IMPORTANT❗️❗️❗️
-        
-This Movie File/Video will be deleted in 05 mins 🫥 (Due to Copyright Issues).
-
-Please forward this File/Video to your Saved Messages and Start Download there""")
+        await f.reply("""ʏᴏᴜʀ ғɪʟᴇ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ᴀғᴛᴇʀ 5.0 ᴍɪɴᴜᴛᴇs ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ᴠɪᴏʟᴀᴛɪᴏɴs!""")
         await asyncio.sleep(300)
         await f.delete()
-        await query.message.reply("""🎥 You're All Files Have Been Deleted After 5️⃣ Minutes
-
-🫥 If You Need That File Again Request Again""")
+        await query.message.reply("""❗️ʏᴏᴜʀ ғɪʟᴇ ɪs ᴅᴇʟᴇᴛᴇᴅ ᴀғᴛᴇʀ 5.0 ᴍɪɴᴜᴛᴇs ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ᴠɪᴏʟᴀᴛɪᴏɴs!""")
         
     elif query.data == "pages":
         await query.answer()
