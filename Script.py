@@ -1,6 +1,8 @@
 class script(object):
-    START_TXT = """ 𝙷𝚎𝚕𝚕𝚘 {},
-𝙸'𝚖 𝚈𝚘𝚞𝚛 𝙵𝚛𝚒𝚎𝚗𝚍𝚕𝚢 LK Fιʅɱ Bσƚ, 𝚈𝚘𝚞 𝙲𝚊𝚗 𝙶𝚎𝚝 𝚈𝚘𝚞𝚛 𝙵𝚒𝚕𝚖 𝙰𝚗𝚍 𝚂𝚎𝚛𝚒𝚎𝚜 𝙵𝚒𝚕𝚎𝚜 𝚄𝚜𝚒𝚗𝚐 𝚝𝚑𝚒𝚜 𝚋𝚘𝚝. 𝙰𝚍𝚍 𝚋𝚘𝚝 𝚝𝚘 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙 𝚘𝚛 𝚁𝚎𝚚𝚞𝚎𝚜𝚝 𝙷𝚎𝚛𝚎. 😍"""
+    START_TXT = """ Hᴇʏ {} !,
+ I'ᴍ ᴀɴ ᴀᴜᴛᴏ-ғɪʟᴛᴇʀ ʙᴏᴛ ᴛʜᴀᴛ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘs. Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴏʀ Rᴇǫᴜᴇsᴛ Hᴇʀᴇ sᴏ I ᴄᴀɴ ɢᴇᴛ sᴛᴀʀᴛᴇᴅ!
+ 
+ <blockquote>𝖬𝖺𝗂𝗇𝗍𝖾𝗇𝖼𝖾 𝖡𝗒 --><tg-spoiler> BJ's Cᴏᴅᴇʀ</tg-spoiler></blockquote>"""
     HELP_TXT = """
      Hey  {} 
 Currently using free server so please Dont kill Me...
