@@ -113,9 +113,8 @@ Added By - {}
 <pre> My Name Is LK Film Bot. </pre>
 <blockquote>Jᴜsᴛ Sᴇᴇ Wʜᴀᴛ I Found Fᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ {} </blockquote>"""
 
-    CUSTOM_FILE_CAPTION = """<pre>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
-FɪʟᴇSɪᴢᴇ : {file_size}
-</pre>"""
+    CUSTOM_FILE_CAPTION = """<blockquote>📂Fɪʟᴇɴᴀᴍᴇ : {file_name} </blockquote>
+<blockquote>FɪʟᴇSɪᴢᴇ : {file_size}</blockquote>"""
 
     
     RESTART_GC_TXT = """
