@@ -4,7 +4,7 @@ class script(object):
 <b>I'ᴍ ᴀɴ ᴀᴜᴛᴏ-ғɪʟᴛᴇʀ ʙᴏᴛ ᴛʜᴀᴛ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘs. Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴏʀ Rᴇǫᴜᴇsᴛ Hᴇʀᴇ sᴏ I ᴄᴀɴ ɢᴇᴛ sᴛᴀʀᴛᴇᴅ!</blockquote></b>"""
     HELP_TXT = """
      Hey  {} 
-<blockquote>Currently using free server so please Dont kill Me...</blockquote>
+Currently using free server so please Dont kill Me...
 """
     ABOUT_TXT = """<b>
 ◎ Cʀᴇᴀᴛᴏʀ: <a href=https://t.me/oh_th> ᴏᴡɴᴇʀ</a> 
