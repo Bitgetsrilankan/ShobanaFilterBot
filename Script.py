@@ -7,10 +7,10 @@ class script(object):
 <blockquote>Currently using free server so please Dont kill Me...</blockquote>
 """
     ABOUT_TXT = """<b>
-◎ Cʀᴇᴀᴛᴏʀ:<blockquote> <a href=https://t.me/oh_th> ᴏᴡɴᴇʀ</a> </blockquote>
-◎ Lᴀɴɢᴜᴀɢᴇ:<blockquote> Pʏᴛʜᴏɴ 3 </blockquote>
-◎ Dᴀᴛᴀ Bᴀsᴇ: <blockquote>Mᴏɴɢᴏ DB</blockquote>
-◎ Bᴏᴛ Sᴇʀᴠᴇʀ: <blockquote>Heroku</blockquote> </b>"""
+◎ Cʀᴇᴀᴛᴏʀ: <a href=https://t.me/oh_th> ᴏᴡɴᴇʀ</a> 
+◎ Lᴀɴɢᴜᴀɢᴇ: Pʏᴛʜᴏɴ 3 
+◎ Dᴀᴛᴀ Bᴀsᴇ: Mᴏɴɢᴏ DB
+◎ Bᴏᴛ Sᴇʀᴠᴇʀ: Heroku </b>"""
     SOURCE_TXT = """<b>NOTE:</b>
 - This Bot  is not a open source project.
 
