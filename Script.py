@@ -4,10 +4,10 @@ class script(object):
 <b>I'ᴍ ᴀɴ ᴀᴜᴛᴏ-ғɪʟᴛᴇʀ ʙᴏᴛ ᴛʜᴀᴛ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘs. Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴏʀ Rᴇǫᴜᴇsᴛ Hᴇʀᴇ sᴏ I ᴄᴀɴ ɢᴇᴛ sᴛᴀʀᴛᴇᴅ!</blockquote></b>"""
     HELP_TXT = """
      Hey  {} 
-Currently using free server so please Dont kill Me...
+<blockquote>Currently using free server so please Dont kill Me...</blockquote>
 """
     ABOUT_TXT = """<b>
-◎ Cʀᴇᴀᴛᴏʀ: <a href=https://t.me/oh_th> ᴏᴡɴᴇʀ</a> 
+◎ Cʀᴇᴀᴛᴏʀ: <a href=https://t.me/cader_r>ᴏᴡɴᴇʀ</a> 
 ◎ Lᴀɴɢᴜᴀɢᴇ: Pʏᴛʜᴏɴ 3 
 ◎ Dᴀᴛᴀ Bᴀsᴇ: Mᴏɴɢᴏ DB
 ◎ Bᴏᴛ Sᴇʀᴠᴇʀ: Heroku </b>"""
@@ -15,7 +15,7 @@ Currently using free server so please Dont kill Me...
 - This Bot  is not a open source project.
 
 <b>DEVS:</b>
--<a href=https://t.me/oh_th> ᴏᴡɴᴇʀ</a>"""
+-<a href=https://t.me/cader_r>ᴏᴡɴᴇʀ</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 - Filter is the feature were users can set automated replies for a particular keyword and shobana will respond whenever a keyword is found the message
 <b>NOTE:</b>
