@@ -12,19 +12,19 @@ def is_enabled(value, default):
     else:
         return default
 
-
+# Bot information
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '24870301'))
 API_HASH = environ.get('API_HASH', '5bcc6d5a90ad19da0989d635a36942af')
 BOT_TOKEN = environ.get('BOT_TOKEN', '7221872059:AAEaO8yPEqyB0Ma3ef0zDRJG-zMa02IXYf4')
 
-
+# Bot settings
 BOT_START_TIME = time()
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 PICS = (environ.get('PICS', 'https://media-hosting.imagekit.io//bbcf572c44a74cfa/IMG_20250310_060807_879.jpg?Expires=1836175095&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=qjgYlCbHyq4ZyXi3YhevV3mHlEaUo2tJ6e9SRlEBNghFLL6efk0FAj2xSEBmkDDHHpHq-5pXQC7CW117JUu-Ta2DI4bfSebHP6jrRUkXk-w0JDg0D8fqigiCKiUUzdLFPWaAgsg4cxS5~krUNGfdJcFCBMpWz3xvGQEHOtidZK1Kq1i4Fdr-DEYbfbuu6bmCc-4ykFoScjGVlg6Oo0~GcR6gdgyZK0nEMZnGxg-6AOBSV2BMiOXCF8K9kHxfJwCxAG5QBnKFKO2Ms196eGBGUDIYNwOdkcLhMdvhySLaqPe5q0T9FAwKzaHsvu4Md59HFVovpsjeUAic7nAQVr6BGw__')).split()
 
-
+# Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1481322134').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002450577884').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
@@ -34,7 +34,7 @@ auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = environ.get('AUTH_CHANNEL')
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
-
+# MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://pawanivimasha8:20030928@autofilter.jdtmx.mongodb.net/?retryWrites=true&w=majority&appName=AutoFilter")
 DATABASE_NAME = environ.get('DATABASE_NAME', "techvjclonefilterbot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjcollection')
@@ -42,7 +42,7 @@ DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://pawanivimasha8:20030
 DATABASE_NAME2 = environ.get('DATABASE_NAME2', "techvjclonefilterbot2")
 COLLECTION_NAME2 = environ.get('COLLECTION_NAME2', 'vjcollection2')
 
-
+# Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002324418733'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'LKFilmBotSearch')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', 'False')), False)
