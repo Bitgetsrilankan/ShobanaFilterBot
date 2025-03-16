@@ -38,7 +38,7 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://pawanivimasha8:20030928@autofilter.jdtmx.mongodb.net/?retryWrites=true&w=majority&appName=AutoFilter")
 DATABASE_NAME = environ.get('DATABASE_NAME', "techvjclonefilterbot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjcollection')
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://pawanivimasha8:20030928@autofilter.jdtmx.mongodb.net/?retryWrites=true&w=majority&appName=AutoFilter")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://minideveloper06:nvRrHLViR4j7DALy@db2.q5mql.mongodb.net/?retryWrites=true&w=majority&appName=db2")
 DATABASE_NAME2 = environ.get('DATABASE_NAME2', "techvjclonefilterbot2")
 COLLECTION_NAME2 = environ.get('COLLECTION_NAME2', 'vjcollection2')
 
